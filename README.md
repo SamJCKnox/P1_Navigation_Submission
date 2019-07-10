@@ -17,12 +17,14 @@ First, install conda: https://www.anaconda.com/distribution/#download-section
 
 
 Next, create a new conda enviornment and activate
-`conda create -n Navigation python=3.6.3 anaconda
-activate Navigation`
+`conda create -n Navigation python=3.6.3 anaconda`
+
+`activate Navigation`
 
 Now install pytorch and unity agents
 
 `conda install pytorch=0.4.0 cuda80 -c pytorch`
+
 `pip install mlagents==0.4.0`
 
 Finally, the environment and scripts are downloaded from
