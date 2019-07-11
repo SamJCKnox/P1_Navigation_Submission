@@ -15,8 +15,8 @@ The jupyter notebooks are written to function on a Windows machine with a cuda e
 ## Dependancies
 First, install conda: https://www.anaconda.com/distribution/#download-section
 
-
 Next, create a new conda enviornment and activate
+
 `conda create -n Navigation python=3.6.3 anaconda`
 
 `activate Navigation`
@@ -30,4 +30,9 @@ Now install pytorch and unity agents
 Finally, the environment and scripts are downloaded from
 
 `git clone https://github.com/SamJCKnox/P1_Navigation_Submission.git`
+
+## Instructions
+The Navigation script includes all code required to run. Run all sections to train the agent. Outputs will show how the agent is performing.
+
+Report.pdf shows how the architecture of the Qnetwork has been refined along with the hyperparamteres.
 
